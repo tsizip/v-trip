@@ -1,0 +1,206 @@
+.institute {
+    margin: 70px 0;
+
+    .institute__content {
+        .about__img {
+            padding-left: 0;
+            padding-right: 0;
+
+            img {
+                width: 100%;
+            }
+
+            position: relative;
+            height: 305px;
+
+            .carousel__card {
+                position: absolute;
+                z-index: 20;
+                right: 50%;
+                transform: translateX(-50%);
+                top: 4%;
+                background-color: $color-gray;
+                display: inline-block;
+                color: $color-black;
+                width: 23%;
+                display: block;
+                padding: 50px 50px 20px 50px;
+
+                .card__top {
+                    .p-cus {
+                        line-height: 31px;
+                    }
+
+                    p {
+                        font-size: 2rem;
+
+                        &:first-child {
+                            font-size: .8rem;
+                        }
+                    }
+                }
+
+                .card__line {
+                    border-bottom: 3px solid $color-black;
+                    display: block;
+                    width: 35px;
+                    margin-bottom: 15px;
+
+                }
+
+                .card__bottom {
+                    p {
+                        letter-spacing: -1px;
+                        font-size: 18px;
+                        margin-bottom: 22px;
+                    }
+                }
+
+                .card__button {
+                    text-align: center;
+
+                    button {
+                        transition: all .5s;
+
+                        &:hover {
+                            background-color: $color-brown;
+                            color: $color-white;
+                        }
+
+                        margin-bottom: -30px;
+                        white-space: nowrap;
+                        background-color: transparent;
+                        border: 1px solid $color-black;
+                        padding: 8px 61px;
+                        border-radius: 5px;
+                        color: $color-black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive('extra-cus') {
+    .institute{
+        .institute__content{
+            .about__img {
+                .carousel__card {
+                    width: 27%;
+        
+                }
+            }
+        }
+    }
+}
+
+@include responsive('extra-large1') {
+    .institute{
+        .institute__content{
+            .about__img {
+                .carousel__card {
+                    padding: 20px;
+    
+                    .card__button {
+                        button {
+                            padding: 8px 50px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive('large') {
+    .institute{
+        .institute__content{
+            .about__img {
+                .carousel__card {
+                    width: 33%;
+                    right: 17%;
+                }
+            }
+        }
+    }
+}
+@include responsive('902') {
+    .institute{
+        margin-bottom: 170px;
+    }
+}
+@include responsive('medium') {
+   .institute{
+        margin-bottom: 195px;
+        .institute__content{
+            .about__img{
+                .carousel__card{
+                    width: 40%;
+                    right: 10%;
+                    .card__button{
+                        button{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+   }
+}
+
+@include responsive('660') {
+    .institute{
+        .institute__content{
+            .about__img {
+                .carousel__card {
+                    width: 59%;
+                    top: 49%;
+                    right: -9%;
+                }
+            }
+        }
+    }
+}
+
+@include responsive('small') {
+    .institute{
+        .institute__content{
+            .about__img {
+                .carousel__card {
+                    width: 59%;
+                    top: 40%;
+                    right: -9%;
+                    .card__top{
+                        .p-cus{
+                            font-size: 29px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive('ip12'){
+    .institute{
+        .institute__content{
+            .about__img{
+                .carousel__card{
+                    top: 25%;
+                }
+            }
+        }
+    }
+}
+@include responsive('320'){
+    .institute{
+        .institute__content{
+            .about__img{
+                .carousel__card{
+                    width: 80%;
+                    right: -30%;
+                }
+            }
+        }
+    }
+}

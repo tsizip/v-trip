@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-padding-top: 120px;
+}
+body {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: $color-black-1;
+  background-color: $color-white;
+}
+.zalo-chat-widget {
+  border: none!important;
+  visibility: visible!important;
+  bottom: 22px!important;
+  // right: 22px!important;
+  position: fixed!important;
+  width: 60px!important;
+  z-index: 2147483644!important;
+  height: 60px!important;
+  left: 22px!important;
+}

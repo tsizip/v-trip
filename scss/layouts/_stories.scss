@@ -1,0 +1,136 @@
+.stories {
+     text-align: center;
+     padding-bottom: 50px;
+     display: block;
+ 
+     button {
+         transition: all 0.5s;
+ 
+         &:hover {
+             background-color: $color-brown;
+             color: $color-white;
+         }
+ 
+         border-radius: 5px;
+         padding: 10px 50px;
+         background-color: transparent;
+         border: 1px solid $color-black;
+     }
+ 
+     .stories__content {
+         .stories__top {
+             .col-4-cus {
+                 .item {
+                     p {
+                         font-size: 20px;
+                         font-weight: bold;
+                     }
+ 
+                     text-align: left;
+ 
+                     ul {
+                         list-style-type: unset;
+                         margin-left: 20px;
+ 
+                         li {
+                             font-weight: 400;
+                             font-size: 17px;
+                             letter-spacing: -1px;
+                             word-spacing: 1px;
+                             line-height: 30px;
+                         }
+                     }
+                 }
+             }
+ 
+             .col-8-cus {
+                 .item {
+                     .row {
+                         .col-cus {
+                             cursor: pointer;
+                             padding: 10px;
+                             height: 160px;
+ 
+                             img {
+                                 height: 100%;
+                                 width: 100%;
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+ @include responsive("extra-large1") {
+     .stories {
+         .stories__content {
+             .stories__top {
+                 .col-4-cus {
+                     .item {
+                         p {
+                             font-size: 15px;
+                         }
+ 
+                         ul {
+                             li {
+                                 font-weight: 400;
+                                 font-size: 17px;
+                                 letter-spacing: -1px;
+                                 word-spacing: 1px;
+                                 line-height: 25px;
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+ @include responsive('large') {
+     .stories {
+         .stories__content {
+             max-width: 90%;
+         }
+     }
+ }
+ 
+ @include responsive("320") {
+     .stories {
+         .stories__content {
+             .stories__top {
+                 .col-4-cus {
+                     .item {
+                         p {
+                             font-size: 14px;
+                             margin-bottom: 1px;
+                         }
+ 
+                         ul {
+                             li {
+                                 font-weight: 400;
+                                 font-size: 15px;
+                                 letter-spacing: -1px;
+                                 word-spacing: 0px;
+                                 line-height: 18px;
+                             }
+                         }
+                     }
+                 }
+ 
+                 .col-8-cus {
+                     .item {
+                         .row {
+                             .col-cus {
+                                 height: 100px;
+                                 padding: 5px;
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }

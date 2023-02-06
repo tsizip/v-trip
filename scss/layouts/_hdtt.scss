@@ -1,0 +1,171 @@
+.hoatdongthuctee{
+     .hdtt__layout{
+          .hdtt__content{
+               padding: 0 110px 0 110px;
+               p{
+                    text-align: justify;
+                    font-size: 15px;
+                    font-weight: 400;
+                    &:nth-child(2){
+                         margin-bottom: 0;
+                    }
+               }
+          }
+          .hdtt__pic{
+               padding: 0 100px 20px 100px;
+               .row-cus{
+                    padding: 0;
+                    margin: 0;
+                    .col-cus{
+                         padding: 0;
+                         margin: 0;
+                         padding: 10px;
+                         .item{
+                              text-align: center;
+                              // background-position: center;
+                              // background-repeat: no-repeat;
+                              // background-size: cover;
+                              width: 100%;
+                              height: 300px;
+                              
+                         }
+                         // .item.item1{
+                         //      background-image: url(../../img/tour1.jpg);
+                              
+                         // }
+                         // .item.item2{
+                         //      background-image: url(../../img/tour2.jpg);
+                              
+                         // }
+                         // .item.item3{
+                         //      background-image: url(../../img/tour3.jpg);
+                              
+                         // }
+
+                         // .item.item4{
+                         //      background-image: url(../../img/tour4.jpg);
+                              
+                         // }
+                         // .item.item5{
+                         //      background-image: url(../../img/tour5.jpg);
+                              
+                         // }
+                         // .item.item6{
+                         //      background-image: url(../../img/tour6.jpg);
+                              
+                         // }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive('extra-large1'){
+     .hoatdongthucte{
+          .hdtt__layout{
+               .hdtt__content{
+                    padding: 0 40px 0 40px;
+                    p{
+                         text-align: justify;
+                         font-size: 15px;
+                         font-weight: 400;
+                         &:nth-child(2){
+                              margin-bottom: 0;
+                         }
+                    }
+               }
+               .hdtt__pic{
+                    padding: 0 35px 20px 35px;
+                    .row-cus{
+                         padding: 0;
+                         margin: 0;
+                         .col-cus{
+                              padding: 0;
+                              margin: 0;
+                              padding: 5px;
+                              .item{
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: cover;
+                                   height: 303px;
+                                   
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive('1085'){
+     .hoatdongthucte{
+          .hdtt__layout{
+               .hdtt__content{
+                    padding: 0 40px 0 40px;
+                    p{
+                         text-align: justify;
+                         font-size: 15px;
+                         font-weight: 400;
+                         &:nth-child(2){
+                              margin-bottom: 0;
+                         }
+                    }
+               }
+               .hdtt__pic{
+                    padding: 0 35px 20px 35px;
+                    .row-cus{
+                         padding: 0;
+                         margin: 0;
+                         .col-cus{
+                              padding: 0;
+                              margin: 0;
+                              padding: 5px;
+                              .item{
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: cover;
+                                   height: 275px;
+                                   
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+@include responsive('large'){
+     .hoatdongthucte{
+          .hdtt__layout{
+               .hdtt__content{
+                    padding: 0 40px 0 40px;
+                    p{
+                         text-align: justify;
+                         font-size: 15px;
+                         font-weight: 400;
+                         &:nth-child(2){
+                              margin-bottom: 0;
+                         }
+                    }
+               }
+               .hdtt__pic{
+                    padding: 0 35px 20px 35px;
+                    .row-cus{
+                         padding: 0;
+                         margin: 0;
+                         .col-cus{
+                              padding: 0;
+                              margin: 0;
+                              padding: 5px;
+                              .item{
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: cover;
+                                   height: 365px;
+                                   
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}

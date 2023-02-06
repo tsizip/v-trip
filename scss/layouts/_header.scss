@@ -1,0 +1,193 @@
+header{
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-color: white;
+        // z-index: 100;
+            // background-color: rgba(247, 243, 243, 0.968);  
+        z-index: 1000;
+        box-shadow: 2px 3px 8px 0px #000000ba;
+        transition: all .5s;
+    .header {
+        font-weight: 400;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 6px;
+        .Mynavbar {
+            padding: 0;
+            .navbar-brand {
+                padding-bottom: 0;
+                img {
+                    width: 90px;
+                }
+            }
+            .name {
+                text-align: center;
+                p {
+                    font-family: "Abril Fatface";
+                    color: $color-blue-1;
+                    margin-bottom: 0;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+            .Mycollapse {
+                justify-content: flex-end;
+                .navbar-nav {
+                    .nav-item {
+                        .banlanhdao {
+                            pointer-events: none;
+                            opacity: 0.4;
+                        }
+                        margin: 0 15px;
+                        &:hover {
+                            .nav-link {
+                                border-bottom: 3px solid $color-blue-1;
+                            }
+                            .banlanhdao{
+                                border-bottom: unset;
+                            }
+                            .nav-link.language{
+                                cursor: pointer;
+                                border-bottom: 3px solid $color-white;
+                            }
+                        }
+                        .nav-link {
+                            color: $color-blue-1;
+                            white-space: nowrap;
+                            font-size: 15px;
+                            font-weight: 600;
+                            padding: 0.3rem 0.8rem;
+                            border-bottom: 3px solid transparent;
+                        }
+                    }
+                    .nav-cus {
+                        button {
+                            border-radius: 25px;
+                            border-bottom: unset !important;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("extra-cus") {
+    header{
+        .header {
+            .Mynavbar {
+                .name {
+                    p {
+                        font-size: 17px;
+                    }
+                }
+    
+                .Mycollapse {
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("extra-large") {
+    header{
+        .header {
+            .Mynavbar {
+                .Mycollapse {
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+                                font-size: 13px;
+                                padding: 0;
+                            }
+                        }
+                        .nav-cus {
+                            button {
+                                padding: 0 20px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("large") {
+    header{
+        .header {
+            .Mynavbar {
+                .Mycollapse {
+                    .navbar-nav {
+                        margin-top: 10px;
+                        background-color: $color-gray;
+    
+                        .nav-item {
+                            .nav-link {
+                                text-align: center;
+                                font-size: 15px;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive("small") {
+   header{
+    .header {
+        .Mynavbar {
+            .navbar-brand {
+                img {
+                    width: 65px;
+                }
+            }
+
+            .name {
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+   }
+}
+
+@include responsive("small-max") {
+    header{
+        .header {
+            .Mynavbar {
+                .name {
+                    margin-left: -23px;
+                }
+            }
+        }
+    }
+}
+
+@include responsive("320") {
+    header{
+        .header {
+            .Mynavbar {
+                .name {
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

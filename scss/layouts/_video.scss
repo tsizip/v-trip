@@ -1,0 +1,54 @@
+// .video {
+//     padding-bottom: 50px;
+//     text-align: center;
+//     .video__content {
+//         max-width: 60%;
+        
+//         .video__img {
+//             position: relative;
+//             background-image: url('../../img/advancing-black-pathways-council-video-callout.jpg');
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             background-size: cover;
+//             height: 370px;
+//             .button {
+//                 position: absolute;
+//                 left: 50%;
+//                 top: 50%;
+//                 text-align: center;
+
+//                 transform: translate(-50%, -50%);
+//                 a {
+//                     i {
+//                         background-color: rgba(0, 71, 123, 0.85);
+//                         text-align: center;
+//                         border-radius: 50%;
+//                         width: 90px;
+//                         height: 90px;
+//                         display: inline-block;
+//                         border: 3px solid $color-white;
+//                         display: inline-block;
+//                         line-height: 80px;
+//                         font-size: 40px;
+//                         color: white;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @include responsive('902'){
+//     .video{
+//         .video__content{
+//             max-width: 80%;
+//         }
+//     }
+// }
+// @include responsive('medium'){
+//     .video{
+//         .video__content{
+//             max-width: 95%;
+//         }
+//     }
+// }

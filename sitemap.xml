@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://v-trip.vn/</loc>
+  <lastmod>2022-06-10T04:14:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://v-trip.vn/tourMB.html</loc>
+  <lastmod>2022-06-10T04:11:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v-trip.vn/tourMT.html</loc>
+  <lastmod>2022-06-10T04:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v-trip.vn/tourMN.html</loc>
+  <lastmod>2022-06-10T04:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v-trip.vn/tourTN.html</loc>
+  <lastmod>2022-06-10T04:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v-trip.vn/tourBD.html</loc>
+  <lastmod>2022-06-10T04:10:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v-trip.vn/tourLT.html</loc>
+  <lastmod>2022-06-10T04:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://v-trip.vn/index.html</loc>
+  <lastmod>2022-06-10T04:14:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

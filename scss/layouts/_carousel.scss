@@ -1,0 +1,545 @@
+.carousel {
+    margin-top: 100px;
+    
+    .carousel__content {
+        overflow: hidden;
+        .my__carousel {
+            overflow: visible;
+            height: 540px;
+            .item{
+                .carousel__card{
+                    height: 481px;
+                    .card__top{
+                        p{
+                            line-height: 33px;
+                        }
+                    }
+                }
+            }
+
+            .item6 {
+                
+                
+                background-image: url(../../img/carousel/index1.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                box-sizing: content-box;
+                height: 481px;
+                .carousel__card {
+                    position: absolute;
+                    z-index: 99999;
+                    left: 9%;
+                    top: 4%;
+                    background-color: $color-blue-2;
+                    display: inline-block;
+                    color: $color-white;
+                    width: 23%;
+                    display: block;
+                    padding: 50px 50px 20px 50px;
+                    
+                    .card__top {
+                        margin-top: 15px;
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                    .card__line {
+                        border-bottom: 3px solid $color-white;
+                        display: block;
+                        width: 35px;
+                        margin-bottom: 15px;
+                    }
+                    .card__button {
+                        text-align: center;
+                        button {
+                            white-space: nowrap;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: $color-white;
+                                color: $color-black;
+                            }
+                            background-color: transparent;
+                            border: 1px solid $color-white;
+                            padding: 10px 61px;
+                            border-radius: 5px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .item7 {
+                background-image: url(../../img/carousel/index2.jpeg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                height: 481px;
+                .carousel__card {
+                    position: absolute;
+                    z-index: 20;
+                    left: 9%;
+                    top: 4%;
+                    background-color: $color-green;
+                    display: inline-block;
+                    color: $color-white;
+                    width: 23%;
+                    display: block;
+                    padding: 50px 50px 20px 50px;
+                    .card__top {
+                        margin-top: 40px;
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                    .card__line {
+                        border-bottom: 3px solid $color-white;
+                        display: block;
+                        width: 35px;
+                        margin-bottom: 15px;
+                    }
+                    .card__button {
+                        text-align: center;
+                        button {
+                            white-space: nowrap;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: $color-white;
+                                color: $color-black;
+                            }
+                            background-color: transparent;
+                            border: 1px solid $color-white;
+                            padding: 10px 61px;
+                            border-radius: 5px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+
+            .item1 {
+                
+                
+                background-image: url(../../img/jetty-1807471.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                box-sizing: content-box;
+                height: 481px;
+                .carousel__card {
+                    position: absolute;
+                    z-index: 99999;
+                    left: 9%;
+                    top: 4%;
+                    background-color: $color-blue-2;
+                    display: inline-block;
+                    color: $color-white;
+                    width: 23%;
+                    display: block;
+                    padding: 50px 50px 20px 50px;
+                    
+                    .card__top {
+                        margin-top: 15px;
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                    .card__line {
+                        border-bottom: 3px solid $color-white;
+                        display: block;
+                        width: 35px;
+                        margin-bottom: 15px;
+                    }
+                    .card__button {
+                        text-align: center;
+                        button {
+                            white-space: nowrap;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: $color-white;
+                                color: $color-black;
+                            }
+                            background-color: transparent;
+                            border: 1px solid $color-white;
+                            padding: 10px 61px;
+                            border-radius: 5px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .item-2 {
+                background-image: url(../../img/pexels-fauxels-3184306.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                height: 481px;
+                .carousel__card {
+                    position: absolute;
+                    z-index: 20;
+                    left: 9%;
+                    top: 4%;
+                    background-color: $color-green;
+                    display: inline-block;
+                    color: $color-white;
+                    width: 23%;
+                    display: block;
+                    padding: 50px 50px 20px 50px;
+                    .card__top {
+                        margin-top: 40px;
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                    .card__line {
+                        border-bottom: 3px solid $color-white;
+                        display: block;
+                        width: 35px;
+                        margin-bottom: 15px;
+                    }
+                    .card__button {
+                        text-align: center;
+                        button {
+                            white-space: nowrap;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: $color-white;
+                                color: $color-black;
+                            }
+                            background-color: transparent;
+                            border: 1px solid $color-white;
+                            padding: 10px 61px;
+                            border-radius: 5px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .item3 {
+                background-image: url(../../img/1.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                height: 481px;
+                .carousel__card {
+                    position: absolute;
+                    z-index: 20;
+                    left: 9%;
+                    top: 4%;
+                    background-color: #968280;
+                    display: inline-block;
+                    color: $color-white;
+                    width: 23%;
+                    display: block;
+                    padding: 50px 50px 20px 50px;
+                    .card__top {
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                    .card__line {
+                        border-bottom: 3px solid $color-white;
+                        display: block;
+                        width: 35px;
+                        margin-bottom: 15px;
+                    }
+                    .card__button {
+                        text-align: center;
+                        button {
+                            white-space: nowrap;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: $color-white;
+                                color: $color-black;
+                            }
+                            background-color: transparent;
+                            border: 1px solid $color-white;
+                            padding: 10px 61px;
+                            border-radius: 5px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .item4 {
+                background-image: url(../../img/pexels-fauxels-3184292.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                height: 481px;
+                .carousel__card {
+                    position: absolute;
+                    z-index: 20;
+                    left: 9%;
+                    top: 4%;
+                    background-color: #694034;
+                    display: inline-block;
+                    color: $color-white;
+                    width: 23%;
+                    display: block;
+                    padding: 50px 50px 20px 50px;
+                    .card__top {
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                    .card__line {
+                        border-bottom: 3px solid $color-white;
+                        display: block;
+                        width: 35px;
+                        margin-bottom: 15px;
+                    }
+                    .card__button {
+                        text-align: center;
+                        button {
+                            white-space: nowrap;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: $color-white;
+                                color: $color-black;
+                            }
+                            background-color: transparent;
+                            border: 1px solid $color-white;
+                            padding: 10px 61px;
+                            border-radius: 5px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .item5 {
+                background-image: url(../../img/ho-chi-minh-30395812.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                height: 481px;
+                .carousel__card {
+                    position: absolute;
+                    z-index: 20;
+                    left: 9%;
+                    top: 4%;
+                    background-color: $color-blue-2;
+                    display: inline-block;
+                    color: $color-white;
+                    width: 23%;
+                    display: block;
+                    padding: 50px 50px 20px 50px;
+                    .card__top {
+                        p {
+                            font-size: 2rem;
+                        }
+                    }
+                    .card__line {
+                        border-bottom: 3px solid $color-white;
+                        display: block;
+                        width: 35px;
+                        margin-bottom: 15px;
+                    }
+                    .card__button {
+                        text-align: center;
+                        button {
+                            white-space: nowrap;
+                            transition: all 0.5s;
+                            &:hover {
+                                background-color: $color-white;
+                                color: $color-black;
+                            }
+                            background-color: transparent;
+                            border: 1px solid $color-white;
+                            padding: 10px 61px;
+                            border-radius: 5px;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+
+            .owl-nav {
+                margin-top: 0 !important;
+                &:hover {
+                    background-color: none !important;
+                    color: $color-black;
+                }
+                margin-top: 2%;
+                button {
+                    outline: none;
+                }
+                .owl-prev {
+                    color: $color-blue-2;
+                    font-size: 40px;
+                    position: absolute;
+                    left: 40%;
+                    bottom: 0;
+                    line-height: 37px;
+                }
+                .owl-next {
+                    color: $color-blue-2;
+                    line-height: 37px;
+                    font-size: 40px;
+                    position: absolute;
+                    right: 40%;
+                    bottom: 0;
+                }
+            }
+            .owl-dots {
+                margin-top: 32px;
+                .owl-dot {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+@include responsive('extra-large1'){
+    .carousel{
+        .carousel__content{
+            .my__carousel{
+                .item{
+                    .carousel__card{
+                        width: 27%;
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive('1000'){
+    .carousel{
+        .carousel__content{
+            .my__carousel{
+                .item{
+                    .carousel__card{
+                        width: 31%;
+                        .card__top{
+                            p{
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive('medium'){
+    .carousel{
+        .carousel__content{
+            .my__carousel{
+                .item{
+                    .carousel__card{
+                        width: 38%;
+                        .card__top{
+                            p{
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive('600'){
+    .carousel{
+        .carousel__content{
+            .my__carousel{
+                .item{
+                    .carousel__card{
+                        width: 50%;
+                        left: 26%;
+                        .card__top{
+                            p{
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive('415'){
+    .carousel{
+        .carousel__content{
+            .my__carousel{
+                .item{
+                    .carousel__card{
+                        padding: 20px 20px 20px 20px;
+                        width: 60%;
+                        left: 21%;
+                        .card__top{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                        .card__bottom{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive('ip12'){
+    .carousel{
+        .carousel__content{
+            .my__carousel{
+                .item{
+                    .carousel__card{
+                        padding: 20px 20px 20px 20px;
+                        width: 60%;
+                        left: 21%;
+                        .card__top{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                        .card__bottom{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive('320'){
+    .carousel{
+        .carousel__content{
+            .my__carousel{
+                .item{
+                    .carousel__card{
+                        padding: 20px 20px 20px 20px;
+                        width: 80%;
+                        left: 10%;
+                        .card__top{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                        .card__bottom{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

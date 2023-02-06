@@ -1,0 +1,38 @@
+// helpers
+@import './helpers/variables';
+@import './helpers/mixin';
+
+// vendors
+
+// base
+@import './base/reset';
+@import './base/customize';
+
+//layouts
+@import './layouts/body';
+@import './layouts/stories';
+@import './layouts/tourMB';
+@import './layouts/tourMT';
+@import './layouts/tourMN';
+@import './layouts/header';
+@import './layouts/carousel';
+@import './layouts/contact';
+@import './layouts/info';
+@import './layouts/courses';
+@import './layouts/line';
+@import './layouts/hdtt';
+@import './layouts/hoatdongthucte';
+@import './layouts/carouselCoppy';
+// @import './layouts/carousel-v';
+
+// @import './layouts/video';
+@import './layouts/about';
+@import './layouts/impact';
+@import './layouts/workplace';
+@import './layouts/link';
+@import './layouts/institute';
+@import './layouts/footer';
+@import './layouts/backToTop';
+@import './layouts/batDongSan';
+
+//

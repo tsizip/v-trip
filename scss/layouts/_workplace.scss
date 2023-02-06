@@ -1,0 +1,125 @@
+.workplace{
+    margin: 50px auto;
+        width: 100%;
+    .workplace__content{
+        .col-6-cus{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .col-img{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .col-text{
+            padding: 40px 20px;
+            background-color: #03545E;
+            color: $color-white;
+            .p-cus{
+                font-size: 14px;
+                span{
+                    font-weight: bold;
+                }
+            }
+            p{
+                font-size: 17px;
+                &:first-child{
+                    font-size: 17px;
+                }
+                &:nth-child(2){
+                    margin-bottom: 2rem;
+                    font-weight: 700;
+                }
+            }
+            button{
+                transition: all .5s;
+                &:hover{
+                    background-color: $color-white;
+                    color: $color-black;
+                }
+                background-color: transparent;
+                border: 1px solid $color-white;
+                color:$color-white;
+                border-radius: 5px;
+                padding: 10px 40px;
+            }
+        }
+    }
+}
+@include responsive('medium'){
+    .workplace{
+        .workplace__content{
+            .col-text{
+                padding: 15px 60px;
+                p{
+                    font-size: 14px;
+                    &:first-child{
+                        font-size: 20px;
+                    }
+                    &:nth-child(2){
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive('small-cus'){
+    .workplace{
+        .workplace__content{
+            .col-text{
+                padding: 15px 25px;
+                p{
+                    font-size: 14px;
+                    &:first-child{
+                        font-size: 20px;
+                    }
+                    &:nth-child(2){
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive('small'){
+    .workplace{
+        .workplace__content{
+            .col-text{
+                padding: 15px 25px;
+                p{
+                    font-size: 14px;
+                    &:first-child{
+                        font-size: 20px;
+                    }
+                    &:nth-child(2){
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive('320'){
+    .workplace{
+        .workplace__content{
+            .col-text{
+                padding: 15px 25px;
+                p{
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    &:first-child{
+                        font-size: 13px;
+                    }
+                    &:nth-child(2){
+                        margin-bottom: 5px;
+                    }
+                }
+                button{
+                    padding: 2px 20px;
+                }
+            }
+        }
+    }
+}
